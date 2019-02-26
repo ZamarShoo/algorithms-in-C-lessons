@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    const char **month[12][1] = {"January", "February", "March", "April", "May", "June", "July",
-                           "August", "September", "October", "November", "December"};
+    const char **seasons[4][1] = {"Winter", "Spring", "Summer", "Autumn"};
 
 
     printf("Enter the number on the month: ");
-    int numberMonth;
-    scanf("%i", &numberMonth);
+    int numberSeason;
+    scanf("%i", &numberSeason);
 
-    printf("you choose %s", **(month + numberMonth - 1));
+    numberSeason = (numberSeason / 3) % 4;
+    printf("you choose %s", **(seasons + numberSeason));
 
     return 0;
 }
