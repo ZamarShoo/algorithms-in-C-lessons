@@ -10,7 +10,7 @@ int main() {
     printf("Enter b: ");
     scanf("%i", &b);
 
-    for (int i = 1; i <= b; i++) {
+    for (int i = 1; i <= b + 1; i++) {
         int a2 = a *  a;
         int a3 = a2 * a;
         printf("%i =\t%i\t%i\n", i, a2, a3);
