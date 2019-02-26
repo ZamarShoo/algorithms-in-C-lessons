@@ -19,4 +19,7 @@ int main() {
     index = mass / (height * height);
 
     printf("Your body mass index is %g", index);
+
+
+    return 0;
 }
