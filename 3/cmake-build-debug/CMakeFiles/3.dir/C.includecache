@@ -9,6 +9,8 @@
 C:/Users/shgpro/CLionProjects/3/main.c
 stdio.h
 -
-stdlib.h
+malloc.h
+-
+string.h
 -
 
